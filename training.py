@@ -9,10 +9,6 @@ from sklearn.cluster import KMeans
 import math
 import os
 
-# cap = cv2.VideoCapture("videos/person15_running_d1_uncomp.avi")
-labels = {'walking':1, 'Jogging':2, 'Handclapping': 3, 'Handwaving': 4, 'running': 5, 'boxing': 6 }
-global Frames
-
 # params for ShiTomasi corner detection
 feature_params = dict( maxCorners = 100,
 	                   qualityLevel = 0.3,
